@@ -12,6 +12,7 @@ Docker実行環境が整備されていること
 [Docker Official](https://docs.docker.com/)
 
 1. Run `docker-compose up`
+1. Run `ocker-compose run web composer install`
 1. Run `docker-compose run web bin/cake migrations migrate`.
 1. Run `docker-compose run web bin/cake migrations seed`.
 
